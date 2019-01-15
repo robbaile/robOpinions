@@ -4,7 +4,7 @@ console.log(db);
 
 
 
-  db.get('messages').then(function (doc) {
+  db.get('messages').then((doc) => {
     console.log(doc);
   });
 
