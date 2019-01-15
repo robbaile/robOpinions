@@ -2,6 +2,14 @@ var db = new PouchDB('rob_database');
 
 console.log(db);
 
+var doc = {
+    "_id": "messages",
+    "messages": [
+      "I'm a hard coded message in the array",
+      "I'm another hard coded message in the array",
+      "I'm the last message and I'm rather long to make sure that we style the page correctly so that it looks good with long and short messages"
+    ]
+};
 
 
   db.get('messages').then((doc) => {
