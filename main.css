@@ -58,3 +58,31 @@ input, button{
     background: #FFF;
     color: #05c46b;
 }
+
+.section-subheading {
+    color: #485460;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.message-card {
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    background-color: #FFF;
+    margin: 20px auto;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+}
+
+.message-p {
+    padding: 5px;
+    text-align: center;
+    color: #485460;
+    width: 60%;
+    margin: 10px auto;
+    border-bottom: 1px solid #DDD;
+    padding-bottom: 10px;
+
+}
